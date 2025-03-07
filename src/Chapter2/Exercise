@@ -1,0 +1,84 @@
+1.
+    public class
+
+2.
+    (1) public class SampleProgram {
+            public static void main(String[] args) {
+                int i;
+                int j;
+                i = 10;
+                j = 20;
+                System.out.println(i + j);
+            }
+        }
+
+    (2) SampleProgram.java
+    (3) javac SampleProgram.java
+    (4) java SampleProgram
+
+3.
+    int %j;
+    double 1var;
+
+4.
+    int height;
+    double size = 0.25;
+    double total = height + size;
+    char c = 'a';
+    String name = "name";
+
+5.
+    (1) double
+    (2) int
+    (3) double
+    (4) boolean
+
+6.
+    double bodyTemp = 36.5;
+
+7.
+    (1) while(true) {}
+    (2) double n = 3.5;
+    (3) boolean b = (3<5)?true:false;
+    (4) int score = 85;
+        if(score > 80 && score < 90) System.out.println(score);
+
+8.
+    (1) age <= 12
+    (2) age < b && age > c
+    (3) (age - 5) == 10
+    (4) age != b || age == c
+
+9.
+    sum = (sum > 100) ? 100 : 0;
+
+10.
+    System.out.println(n > 5 ? n : 5);
+
+11.
+    text = "\"를 출력하려면 | 다음에 \"를 붙여 |\"과 같이 하면 됩니다.\""
+
+12.
+    나는 "JAVA를 100%"사랑해
+
+13.
+    (1) 190
+    (2) 90
+    (3) 40
+    (4) 0
+
+14.
+    switch (in) {
+        case "가위":
+            System.out.println("1");
+            break;
+        case "바위":
+            System.out.println("2");
+            break;
+        case "보":
+            System.out.println("3");
+            break;
+        default:
+            System.out.println("0");
+            break;
+    }
