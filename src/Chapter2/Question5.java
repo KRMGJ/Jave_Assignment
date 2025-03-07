@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Question5 {
     public static void main(String[] args) {
-        /* 출석점수가 총 100점일 때 지각하면 3점 결석하면 8점 감점. 이름, 지각횟수, 결석횟수 순으로 입력할 때
-        두 학생 중 누구의 출석점수가 높은지 판단하는 프로그램 점수가 같은 경우 "점수동일" */
         Scanner scanner = new Scanner(System.in);
 
         int total = 100;

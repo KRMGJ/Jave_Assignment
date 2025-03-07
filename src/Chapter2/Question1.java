@@ -11,5 +11,6 @@ public class Question1 {
         int dollar = scanner.nextInt();
         int won = dollar * 1200;
         System.out.println(dollar + "달러는 " + won + "원입니다.");
+        scanner.close();
     }
 }

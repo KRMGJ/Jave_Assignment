@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Question10 {
     public static void main(String[] args) {
-        /*사각형을 구성하는 두 점 (x1, y1), (x2, y2)를 입력받고 이 사각형이 (10,10)과 (200,300) 의
-        사각형에 완전히 포함되면 "포함된다", ㅏㅇ니면 "포함되지 않는다"를 출력하는 프로그램 */
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("(x1, y1), (x2, y2)의 좌표 입력 >> ");

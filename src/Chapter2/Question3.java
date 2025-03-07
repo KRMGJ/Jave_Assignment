@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Question3 {
     public static void main(String[] args) {
-        // 분식집 가격 계산 프로그램
         Scanner scanner = new Scanner(System.in);
 
         int Rice_cake = 2000;

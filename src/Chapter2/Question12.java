@@ -4,12 +4,6 @@ import java.util.Scanner;
 
 public class Question12 {
     public static void main(String[] args) {
-        /* 자동차의 상태를 나타내는 정수형 변수의 각 비트는 자동차의 상태를 나타낸다.
-        비트 0~5 : 현재 자동차 내 온도 값으로, 10진수로는 0~31의 값
-        비트 6 : 값이 0이면 에어컨이 꺼져 있는 상태. 1이면 켜져 있는 상태
-        비트 7 : 값이 0이면 자동차가 정지 상태. 1이면 달리는 상태
-        비트 8이상 : 아무 의미 없음
-         */
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("자동차 상태 입력 >> ");

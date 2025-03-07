@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Question4 {
     public static void main(String[] args) {
-        // 여행 경비 계산 프로그램. 방 하나에 2명제한. 1명만 투숙해도 1방의 비용을 지불
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("여행지 >> ");

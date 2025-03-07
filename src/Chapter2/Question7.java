@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Question7 {
     public static void main(String[] args) {
-        /* 숫자를 입력받아 3~5는 "따뜻한 봄". 6~8은 "바다가 즐거운 여름". 9~11은 "낙엽이 지는 아름다운 가을".
-        12,0,1의 경우 "눈 내리는 하얀 겨울"을, 그 외 숫자를 입력한 경우 "1~12만 입력하세요."를 출력하는 프로그램 */
         Scanner scanner = new Scanner(System.in);
         System.out.println("월을 입력하세요(1~12) >> ");
         int month = scanner.nextInt();

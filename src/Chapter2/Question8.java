@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Question8 {
     public static void main(String[] args) {
-        /* 실수에 대한 사직 연산을 수행하는 프로그램. 연산은 "더하기", "빼기", "곱하기", "나누기"로 구성되며 계산식은
-        "2.3 더하기 3.6"과 같이 빈 칸으로 분리하여 입력받아 계산 결과를 출력한다. 0으로 나누기가 입력되면
-         "0으로 나눌 수 없습니다"를 출력하고, 연산 명령이 "더하기", "빼기", "곱하기", "나누기"가 아닌 경우,
-         "사칙연산이 아닙니다"를 출력하고 종료 */
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("연산 입력 >> ");
