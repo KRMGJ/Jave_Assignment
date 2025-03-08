@@ -13,7 +13,7 @@ public class Question3 {
         System.out.println("떡볶이 몇 인분 >> ");
         int Rice_cake_count = scanner.nextInt();
 
-        System.out.println("김밥 몇 인분 >> ");
+        System.out.println("김말이 몇 인분 >> ");
         int Rolled_seaweed_count = scanner.nextInt();
 
         System.out.println("쫄면 몇 인분 >> ");

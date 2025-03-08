@@ -20,9 +20,9 @@ public class Question5 {
 
         System.out.println(name1 + "의 감점은 " + (late1 * 3 + absent1 * 8) + ", " + name2 + "의 감점은 " + (late2 * 3 + absent2 * 8));
         if (late1 * 3 + absent1 * 8 > late2 * 3 + absent2 * 8) {
-            System.out.println(name2 + "의 출석점수가 높음. " + name2 + "출석 점수는 " + (total - (late2 * 3 + absent2 * 8)));
+            System.out.println(name2 + "의 출석점수가 더 높음. " + name2 + " 출석 점수는 " + (total - (late2 * 3 + absent2 * 8)));
         } else if (late1 * 3 + absent1 * 8 < late2 * 3 + absent2 * 8) {
-            System.out.println(name1 + "의 출석점수가 높음. " + name1 + "출석 점수는 " + (total - (late1 * 3 + absent1 * 8)));
+            System.out.println(name1 + "의 출석점수가 더 높음. " + name1 + " 출석 점수는 " + (total - (late1 * 3 + absent1 * 8)));
         } else {
             System.out.println("점수동일");
         }
