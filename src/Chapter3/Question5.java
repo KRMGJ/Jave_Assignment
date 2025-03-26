@@ -1,5 +1,6 @@
 package Chapter3;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Question5 {
@@ -14,9 +15,12 @@ public class Question5 {
             arr[i] = scanner.nextInt();
         }
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 3 == 0) {
-                System.out.println(arr[i]);
+        int[] result = Arrays.stream(arr).filter(x -> x % 3 == 0).toArray();
+        System.out.print("3의 배수: ");
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i]);
+            if (i < result.length - 1) {
+                System.out.print(", ");
             }
         }
         scanner.close();

@@ -10,10 +10,7 @@ public class Question1_2_WhileLoop {
         // 1부터 50까지 3의 배수의 합을 구하는 프로그램
         int sum = 0;
         int i = 1;
-        while (true) {
-            if (i > 50) {
-                break;
-            }
+        while (i <= 50) {
             sum += i;
             i += 3;
         }
