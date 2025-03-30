@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 
 public class Question5 {
     public static void main(String[] args) {
+        // 가로수 그늘 아래 서면 이문세가 부른 1988년 한국의 노래
         Song song = new Song("가로수 그늘 아래 서면", "이문세", "1988", "한국");
         song.show();
     }

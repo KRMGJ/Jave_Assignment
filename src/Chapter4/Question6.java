@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 
 public class Question6 {
     public static void main(String[] args) {
+        // 사각형을 나타내는 Rectangle 클래스
         Rectangle a = new Rectangle(3,3,6,6);
         Rectangle b = new Rectangle(4,4,2,3);
 
